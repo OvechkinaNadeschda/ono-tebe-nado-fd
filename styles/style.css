@@ -1,27 +1,24 @@
 /* header */
 
-
 .header {
-    display: grid;
-    grid-template-columns: 1fr min-content 1fr;
-    align-items:center;
-    width: 100%;
-    height: 293px;
-    left: 0px;
-    top: 0px;
-       }
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  width: 100%;
+  height: 293px;
+  left: 0px;
+  top: 0px;
+}
 .header_menu {
-
-
 }
 .header_links-list {
   display: flex;
   flex-direction: row;
   gap: 25px;
-  }
+}
 
 .header__links-list-item {
-  list-style:circle;
+  list-style: circle;
 }
 .header__links-list-item_no-bullit {
   list-style-type: none;
@@ -37,43 +34,40 @@
 }
 .header__logo-image {
   display: block;
-  
-  }
+}
 .address {
-  }
+}
 
 .header_adress {
   display: flex;
   max-width: 239.48px;
-  justify-self:end;
+  justify-self: end;
   flex-direction: column;
   gap: 1px;
   font-family: Raleway;
-font-weight: 400;
-font-size: 18px;
-line-height: 24.3px;
-letter-spacing: 0%;
-font-style: normal;
-max-width: 240px;
-  justify-self:end;
-
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0%;
+  font-style: normal;
+  max-width: 240px;
+  justify-self: end;
 }
 .cover {
   display: flex;
   flex-direction: column;
   justify-content: center;
- padding: 50px;
+  padding: 50px;
   top: 0;
   bottom: 180px;
-background-image: url(../images/cover.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-position: relative;
-width: 1100px;
-height: 757px;
-z-index: 0;
-
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 1100px;
+  height: 757px;
+  z-index: 0;
 }
 .overlay {
   top: 0;
@@ -85,40 +79,37 @@ z-index: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
-  }
+}
 
 .cover__title {
- color: #FFFFFF;
-  }
+  color: #ffffff;
+}
 
 .aligned-text {
   display: block;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-family: Raleway;
-font-weight: 700;
-font-size: 100px;
-line-height: 115px;
-
-
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
 }
 .aligned-text_center {
   display: block;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-family: Raleway;
-font-weight: 700;
-font-size: 100px;
-line-height: 115px;
-text-align: center;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  text-align: center;
 }
 .aligned-text_right {
   display: block;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-family: Raleway;
-font-weight: 700;
-font-size: 100px;
-line-height: 115px;
-text-align: right;
-
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  text-align: right;
 }
 .letter-spacing-extended {
   letter-spacing: 30px;
@@ -131,107 +122,135 @@ text-align: right;
   align-items: baseline;
   justify-content: space-evenly;
   gap: 118px;
-  }
-.cover__description-text {
-  text-transform:uppercase;
-  word-spacing:30px;
-  color:#FFFFFF;
-  width: 1000;
-  height: 51;
-  top: 656px;
+  position: absolute;
+  width: 1000px;
+  height: 51px;
   left: 50px;
-  border-width: 1px;
-  }
-.bet-button {
-  color: white;
-  background-color: transparent;
-  font-family: Raleway;
-font-weight: 500;
-font-size: 20px;
-line-height: 25.83px;
-letter-spacing: 0%;
-text-transform:uppercase;
-text-align: center;
-border: 1px solid #FFFFFF
+  right: 50px;
+  top: 656px;
+  bottom: 50px;
 }
+.cover__description-text {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  word-spacing: 18px;
+  text-transform: uppercase;
+}
+.bet-button {
+  width: 256px;
+  height: 51px;
+  border: 1px solid white;
+  background-color: transparent;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 51px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
 .lots {
   width: 1052;
-height: 723;
-top: 1230px;
-left: 24px;
-
+  height: 723;
+  top: 1230px;
+  left: 24px;
 }
 .lots__heading {
-  width: 121;
-height: 47;
-left: 40px;
-font-family: Raleway;
-font-weight: 700;
-font-size: 40px;
-line-height: 46.96px;
-letter-spacing: 0%;
-text-transform:uppercase;
+  padding-top: 179px;
+  padding-bottom: 26px;
+  padding-left: 64px;
+  color: rgb(0, 0, 0);
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
 }
 .lots__card-list {
-  display: grid;
-  grid-template-columns: 334px 334px 334px;
-  column-gap:25px;
-   }
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
 .lots__card-list-item {
   list-style-type: none;
 }
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  position: relative;
-  width: 334;
-  height: 596;
-  font-family: Raleway;
-font-weight: 700;
-font-size: 22px;
-line-height: 26.4px;
-letter-spacing: 0%;
-text-decoration: underline;
-text-decoration-style: solid;
-text-decoration-thickness: Auto;
-
+  width: 334px;
+  height: 596px;
+  left: 0;
+  top: 0;
 }
+
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  height: 596;
-  font-family: Raleway;
-font-weight: 700;
-font-size: 22px;
-line-height: 26.4px;
-letter-spacing: 0%;
-text-decoration: underline;
-text-decoration-style: solid;
-text-decoration-offset: Auto;
-text-decoration-thickness: Auto;
-
+  width: 334px;
+  height: 596px;
+  left: 0;
+  top: 0;
 }
-.card_type_picture {
-  font-family: Raleway;
-font-weight: 700;
-font-size: 22px;
-line-height: 26.4px;
-letter-spacing: 0%;
-text-decoration: underline;
-text-decoration-style: solid;
-text-decoration-offset: Auto;
-text-decoration-thickness: Auto;
 
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+  width: 334px;
+  height: 596px;
+  left: 0;
+  top: 0;
 }
 .card_title {
+  width: 254px;
+  height: 82px;
+  left: 40px;
+  top: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 .card-link {
+  
 }
 .card__text {
+  width: 254px;
+  height: 144px;
+  left: 40px;
+  top: 404px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .lots__look-more-link {
+  display: block;
+  text-underline-offset: 3px;
+  padding-top: 30px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+  margin-left: 64px;
+  text-decoration-line: underline;
 }
 .about {
   margin-top: 120px;
@@ -251,7 +270,7 @@ text-decoration-thickness: Auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
 .about__logo-image {
   width: 148px;
   height: 114px;
@@ -259,11 +278,12 @@ text-decoration-thickness: Auto;
 .about-column {
 }
 .about__title {
-color: black;
-font-size: 40px;
-font-weight: 700;
-line-height: 46.96px;
-text-transform:uppercase;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-transform: uppercase;
+
 }
 .about__text {
   align-self: flex-start;
@@ -273,12 +293,26 @@ text-transform:uppercase;
   font-weight: 400;
   line-height: 24px;
 }
+.about__text-start{
+  padding-top: 76px;
+}
+
+.about__text-end{
+  padding-top: 25px;
+}
 
 .footer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 180px 50px 88px;
+  gap: 140px;
+  align-items: flex-start;
 }
 .footer__menu {
+  list-style-type: none;
 }
 .footer__menu-list {
+  list-style-type: none;
 }
 .footer__menu-list-item {
 }
@@ -287,10 +321,21 @@ text-transform:uppercase;
 .footer__menu-link_active {
 }
 .footer__social-list {
+  list-style-type: none;
 }
 .footer__social-list-item {
 }
 .footer__social-link {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
 }
 .footer__social-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 48px;
+  height: 48px;
 }
