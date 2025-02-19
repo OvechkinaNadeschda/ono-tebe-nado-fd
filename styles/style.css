@@ -10,11 +10,24 @@
   top: 0px;
 }
 .header_menu {
+  width: 392.48px;
+height: 21.5px;
+left: 50px;
+right: 657.52px;
+top: 133px;
+bottom: 138.5px;
+
+
 }
 .header_links-list {
   display: flex;
-  flex-direction: row;
-  gap: 25px;
+  justify-content: space-between;
+  gap: 25;
+  font-family: Raleway;
+font-weight: 400;
+font-size: 18px;
+line-height: 21.13px;
+letter-spacing: 0%;
 }
 
 .header__links-list-item {
@@ -24,13 +37,17 @@
   list-style-type: none;
 }
 .header__link {
+  text-decoration: none;
 }
 .header__link_active {
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 .header__logo {
-  height: 105px;
   width: 148px;
+height: 105px;
+left: 478px;
+top: 92px;
 }
 .header__logo-image {
   display: block;
@@ -70,10 +87,7 @@
   z-index: 0;
 }
 .overlay {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -177,38 +191,47 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 25px;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: baseline;
   padding: 0;
   margin: 0 auto;
   margin-left: 20px;
-}
+  position: relative;
+    }
 
 .lots__card-list-item {
   list-style-type: none;
 }
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  width: 334px;
-  height: 596px;
-  left: 0;
-  top: 0;
+  position: relative;
+width: 334px;
+height: 596px;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+  z-index: -1;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
+  position: relative;
   width: 334px;
   height: 596px;
   left: 0;
   top: 0;
+  z-index: -1;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
+  position: relative;
   width: 334px;
   height: 596px;
   left: 0;
   top: 0;
+  z-index: -1;
 }
 .card_title {
   width: 254px;
@@ -251,15 +274,22 @@
   line-height: 23.48px;
   margin-left: 64px;
   text-decoration-line: underline;
+  
 }
 .about {
   margin-top: 120px;
-}
-.about__column {
   display: grid;
   grid-template-columns: 334px repeat(1, 1fr);
+  align-items: start;
   gap: 25px;
   padding: 34px 24px 0px;
+}
+.about__column {
+  margin-top: 102px;
+  width: 693px;
+height: 449px;
+left: 359px;
+top: 133px;
 }
 .about__logo {
   justify-self: center;
@@ -275,55 +305,93 @@
   width: 148px;
   height: 114px;
 }
-.about-column {
-}
+
 .about__title {
   color: black;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
   text-transform: uppercase;
+  }
 
-}
 .about__text {
-  align-self: flex-start;
+  padding-top: 100px;
   font-family: "Raleway", sans-serif;
   color: black;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-}
+  }
+
 .about__text-start{
-  padding-top: 76px;
+  padding-top: 100px;
+  width: 688;
+height: 120;
+top: 150px;
+
 }
 
 .about__text-end{
   padding-top: 25px;
+  width: 693;
+height: 168;
+top: 294px;
+
 }
 
 .footer {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
   padding: 180px 50px 88px;
   gap: 140px;
-  align-items: flex-start;
-}
+width: 1100px;
+height: 180px;
+left: 0;
+top: 2848px;
+  }
 .footer__menu {
   list-style-type: none;
+  width: 264.57px;
+height: 98px;
+left: 50px;
+right: 785.43px;
+top: 0;
+bottom: 82px;
 }
 .footer__menu-list {
   list-style-type: none;
 }
 .footer__menu-list-item {
+  width: 163.89999389648438;
+  height: 64;
+  top: 1px;
+  left: 468.6px;
+  border-width: 1px;
+  text-align: center;
+
 }
 .footer__menu-link {
 }
 .footer__menu-link_active {
+  text-decoration: underline;
 }
+
 .footer__social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
   list-style-type: none;
+  width: 240;
+  height: 48;
+  top: 1px;
+left: 810px;
+gap: 48px;
+
 }
 .footer__social-list-item {
+
 }
 .footer__social-link {
   color: black;
@@ -331,10 +399,10 @@
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
-}
+ }
 .footer__social-icon {
-  display: flex;
-  flex-direction: column;
+   gap: 48;
+  padding: 0px;
   gap: 48px;
   width: 48px;
   height: 48px;
