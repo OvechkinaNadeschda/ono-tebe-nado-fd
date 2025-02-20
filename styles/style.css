@@ -3,6 +3,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 293px;
@@ -21,13 +22,14 @@ bottom: 138.5px;
 }
 .header_links-list {
   display: flex;
-  justify-content: space-between;
-  gap: 32;
+flex-direction: row;
+justify-content: space-between;
+gap: 14;
+padding: 0px;
   font-family: Raleway;
 font-weight: 400;
 font-size: 18px;
 line-height: 21.13px;
-letter-spacing: 0%;
 }
 
 .header__links-list-item {
@@ -51,15 +53,6 @@ height: 105px;
   
 }
 .address {
-  
-}
-
-.header_adress {
-  display: flex;
-  justify-self: end;
-  flex-direction: column;
-  max-width: 240px;
-  gap: 0.5px;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
@@ -67,7 +60,17 @@ height: 105px;
   letter-spacing: 0%;
   font-style: normal;
   text-align: left;
-  }
+}
+
+.header_adress {
+  display: flex;
+  justify-self: end;
+  flex-direction: column;
+  align-content: center;
+  max-width: 240px;
+  gap: 0.5px;
+    }
+
 .cover {
   display: flex;
   flex-direction: column;
@@ -133,8 +136,8 @@ height: 105px;
 .cover__description {
   display: flex;
   align-items: baseline;
-  justify-content: space-evenly;
-  gap: 118px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   position: absolute;
   width: 1000px;
   height: 51px;
@@ -149,8 +152,8 @@ height: 105px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
-  word-spacing: 16px;
   text-transform: uppercase;
+  word-spacing: 19px;
 }
 .bet-button {
   width: 256px;
