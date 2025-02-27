@@ -66,7 +66,6 @@
 .address a {
   text-decoration: underline;
   text-underline-position: under;
-  width: 134px;
 }
 
 .header_adress {
@@ -74,11 +73,18 @@
   flex-direction: column;
   justify-self: end;
   margin-right: 50px;
-  height: 98px;
-  width: 240px;
+  max-height: 98px;
+  height: 100%;
+  max-width: 240px;
+  width: 100%;
+
 }
 
 .cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -103,47 +109,31 @@
   flex-direction: column;
   padding: 165px 50px 147px 50px;
   color: #ffffff;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  height: 385px;
 }
 
 .aligned-text {
-  display: block;
-  text-transform: uppercase;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 115px;
-
+  align-self: start;
 }
 
 .aligned-text_center {
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 115px;
   align-self: center;
-  }
-
-.aligned-text_right {
-  display: block;
-  text-transform: uppercase;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 115px;
-  align-self: flex-end;
-  text-align: right;
-  letter-spacing: 30%;
+  padding-top: 18px;
 }
 
-.letter-spacing-extended {
-  letter-spacing: 0.3em;
+.aligned-text_right {
+  align-self: end;
+  padding-top: 21px;
 }
 
 .no-letter-spacing {
-  text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .cover__description {
@@ -152,7 +142,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 50px;
 }
 
 .cover__description-text {
@@ -183,8 +174,6 @@
 .lots {
   width: 1052;
   height: 723;
-  top: 1230px;
-  left: 24px;
 }
 
 .lots__heading {
@@ -199,7 +188,7 @@
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
-  
+
 }
 
 .lots__card-list {
