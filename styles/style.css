@@ -57,15 +57,15 @@
   font-family: Raleway;
   font-size: 18px;
   font-weight: 100;
-  line-height: 21px;
+  line-height: 23px;
   letter-spacing: 0%;
   text-align: left;
   font-style: normal;
 }
 
 .address a {
-  text-decoration: none;
-  border-bottom: 1px solid rgb(0, 0, 0);
+  text-decoration: underline;
+  text-underline-position: under;
   width: 134px;
 }
 
@@ -101,8 +101,7 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 147px;
-  gap: 20px;
+  padding: 165px 50px 147px 50px;
   color: #ffffff;
 }
 
@@ -117,17 +116,18 @@
 }
 
 .aligned-text_center {
+  display: block;
+  text-align: center;
   text-transform: uppercase;
   font-family: Raleway;
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
   align-self: center;
-  text-align: center;
-}
+  }
 
 .aligned-text_right {
-
+  display: block;
   text-transform: uppercase;
   font-family: Raleway;
   font-weight: 700;
@@ -135,19 +135,24 @@
   line-height: 115px;
   align-self: flex-end;
   text-align: right;
+  letter-spacing: 30%;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 27px;
+  letter-spacing: 0.3em;
 }
 
-.no-letter-spacing {}
+.no-letter-spacing {
+  text-transform: uppercase;
+}
 
 .cover__description {
+  width: 1000px;
+  height: 51px;
   display: flex;
-  align-items: baseline;
-  justify-content: space-around;
-  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
 }
 
 .cover__description-text {
@@ -162,7 +167,8 @@
 
 .bet-button {
   width: 256px;
-  height: 51px;
+  min-height: 51px;
+  height: 100%;
   border: 1px solid white;
   background-color: transparent;
   font-family: "Raleway", sans-serif;
@@ -193,6 +199,7 @@
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
+  
 }
 
 .lots__card-list {
@@ -269,9 +276,13 @@
   text-align: left;
   text-decoration-line: underline;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.card-link {}
+.card-link {
+  text-decoration: underline;
+  text-underline-position: under;
+}
 
 .card__text {
   height: 144px;
@@ -296,6 +307,7 @@
   line-height: 23.48px;
   margin-left: 64px;
   text-decoration-line: underline;
+  text-underline-position: under;
 
 }
 
