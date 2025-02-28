@@ -84,7 +84,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -158,28 +157,26 @@
 
 .bet-button {
   width: 256px;
-  min-height: 51px;
-  height: 100%;
+  height: 51px;
   border: 1px solid white;
   background-color: transparent;
   font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 22px;
-  line-height: 51px;
+  line-height: 26px;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
 }
 
 .lots {
-  width: 1052;
-  height: 723;
+  padding-left: 24px;
 }
 
 .lots__heading {
   padding-top: 179px;
   padding-bottom: 26px;
-  padding-left: 64px;
+  padding-left: 40px;
   color: rgb(0, 0, 0);
   font-family: Raleway;
   font-size: 40px;
@@ -197,21 +194,22 @@
   list-style-type: none;
   gap: 25px;
   justify-content: flex-start;
-  align-items: baseline;
-  padding: 0;
-  margin: 0 auto;
-  margin-left: 20px;
 }
 
 .lots__card-list-item {
   list-style-type: none;
 }
 
+.card-link {
+  display: block;
+  text-decoration: none;
+}
+
 .card_type_film {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 48px 40px 40px;
+  padding: 48px 40px 40px 48px;
   background-image: url(../images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
@@ -254,10 +252,7 @@
 }
 
 .card_title {
-  left: 40px;
-  top: 48px;
   color: rgb(255, 255, 255);
-  font-family: Raleway;
   font-size: 22px;
   font-weight: 100;
   line-height: 120%;
@@ -265,12 +260,6 @@
   text-align: left;
   text-decoration-line: underline;
   text-transform: uppercase;
-  text-decoration: none;
-}
-
-.card-link {
-  text-decoration: underline;
-  text-underline-position: under;
 }
 
 .card__text {
@@ -278,7 +267,6 @@
   left: 40px;
   top: 404px;
   color: rgb(255, 255, 255);
-  font-family: Raleway;
   font-size: 20px;
   font-weight: 100;
   line-height: 120%;
@@ -297,7 +285,6 @@
   margin-left: 64px;
   text-decoration-line: underline;
   text-underline-position: under;
-
 }
 
 .about {
