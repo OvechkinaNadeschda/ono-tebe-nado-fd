@@ -61,10 +61,10 @@
   letter-spacing: 0%;
   text-align: left;
   font-style: normal;
-  /* width: 250px; */
 
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   justify-self: end;
 }
 
