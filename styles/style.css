@@ -61,8 +61,11 @@
   letter-spacing: 0%;
   text-align: left;
   font-style: normal;
-  border: 1px;
   /* width: 250px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
 }
 
 .address a {
@@ -71,12 +74,9 @@
 }
 
 .header_adress {
-  display: flex;
-  flex-direction: column;
-  justify-self: end;
+  margin-top: -2px;
   margin-right: 50px;
   max-height: 98px;
-  height: 100%;
   max-width: 240px;
   width: 240px;
 }
@@ -124,12 +124,12 @@
 
 .aligned-text_center {
   align-self: center;
-  padding-top: 18px;
+  padding-top: 19px;
 }
 
 .aligned-text_right {
   align-self: end;
-  padding-top: 21px;
+  padding-top: 20px;
 }
 
 .no-letter-spacing {
@@ -356,8 +356,6 @@
 }
 
 footer .address {
-  display: flex;
-  flex-direction: column;
   margin-left: 50xp;
   margin-bottom: 82px;
 }
