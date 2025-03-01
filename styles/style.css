@@ -13,7 +13,6 @@
   font-size: 18px;
   font-weight: 100;
   line-height: 1.16em;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -57,7 +56,6 @@
   font-size: 18px;
   font-weight: 100;
   line-height: 1.35em;
-  letter-spacing: 0%;
   text-align: left;
   font-style: normal;
 
@@ -187,7 +185,6 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 1.17em;
-  letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
 }
@@ -247,7 +244,6 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2em;
-  letter-spacing: 0%;
   text-align: left;
   text-decoration-line: underline;
   text-transform: uppercase;
@@ -260,7 +256,6 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0%;
   text-align: left;
   padding: 0px 40px 48px 40px;
 }
@@ -287,11 +282,7 @@
 }
 
 .about__column {
-  margin-top: 102px;
-  width: 693px;
-  height: 449px;
-  left: 359px;
-  top: 133px;
+  margin-top: 100px;
 }
 
 .about__logo {
@@ -316,6 +307,7 @@
   font-weight: 700;
   line-height: 1.17em;
   text-transform: uppercase;
+  padding-top: 2px;
 }
 
 .about__text {
@@ -328,20 +320,14 @@
 
 .about__text-start {
   padding-top: 100px;
-  width: 688;
-  height: 120;
-  top: 150px;
 }
 
 .about__text-end {
-  padding-top: 25px;
-  width: 693;
-  height: 168;
-  top: 294px;
+  padding-top: 23px;
 }
 
 .footer {
-  margin-top: 190px;
+  margin-top: 180px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
@@ -371,7 +357,6 @@
   font-size: 18px;
   font-weight: 100;
   line-height: 1.17em;
-  letter-spacing: 0%;
   text-align: center;
 }
 
@@ -390,8 +375,8 @@
   justify-content: flex-start;
   align-items: flex-start;
   list-style-type: none;
-  width: 240;
-  height: 48;
+  width: 240px;
+  height: 48px;
   gap: 48px;
 }
 
@@ -407,7 +392,6 @@
 }
 
 .footer__social-icon {
-  gap: 48;
   padding: 0px;
   gap: 48px;
   width: 48px;
