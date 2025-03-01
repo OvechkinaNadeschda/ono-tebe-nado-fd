@@ -62,7 +62,7 @@
   text-align: left;
   font-style: normal;
   border: 1px;
-  width: 250px;
+  /* width: 250px; */
 }
 
 .address a {
@@ -282,7 +282,7 @@
   grid-template-columns: 334px repeat(1, 1fr);
   align-items: start;
   gap: 25px;
-  padding: 34px 24px 0px;
+  padding: 35px 24px 0px;
 }
 
 .about__column {
@@ -406,7 +406,9 @@ footer .address {
 
 }
 
-.footer__social-list-item {}
+.footer__social-list-item {
+  margin-top: 1px;
+}
 
 .footer__social-link {
   color: black;
