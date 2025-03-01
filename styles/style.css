@@ -5,7 +5,6 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1100px;
-  height: 293px;
 }
 
 .header_menu {
@@ -44,6 +43,8 @@
 
 .header__logo {
   display: block;
+  padding-top: 92px;
+  padding-bottom: 92px;
 }
 
 .header__logo-image {
@@ -58,7 +59,6 @@
   line-height: 1.35em;
   text-align: left;
   font-style: normal;
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -71,8 +71,9 @@
 }
 
 .header_adress {
-  margin-top: -2px;
   margin-right: 50px;
+  margin-top: 95px;
+  margin-bottom: 100px;
   max-height: 98px;
   max-width: 240px;
   width: 240px;
