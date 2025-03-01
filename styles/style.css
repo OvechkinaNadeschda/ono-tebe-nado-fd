@@ -197,6 +197,7 @@
   list-style-type: none;
   width: 334px;
   min-height: 596px;
+  position: relative;
 }
 
 .lots__card-list-item article {
@@ -209,8 +210,6 @@
 .card {
   background-position: center;
   background-size: cover;
-  position: relative;
-  z-index: 2;
 }
 
 .card-link {
@@ -241,6 +240,7 @@
   text-transform: uppercase;
   text-underline-offset: 3px;
   padding: 48px 40px 0 40px;
+  position: relative;
 }
 
 .card__text {
@@ -250,6 +250,7 @@
   line-height: 24px;
   text-align: left;
   padding: 0px 40px 48px 40px;
+  position: relative;
 }
 
 .lots__look-more-link {
