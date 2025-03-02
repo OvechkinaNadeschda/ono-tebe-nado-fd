@@ -326,6 +326,7 @@
   justify-items: center;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 82px;
   gap: 140px;
   width: 1100px;
 }
@@ -366,7 +367,6 @@
   align-items: flex-start;
   list-style-type: none;
   width: 240px;
-  height: 48px;
   gap: 48px;
 }
 
